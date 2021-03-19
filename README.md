@@ -1,6 +1,6 @@
 # Balancing
 
-## Minggu 1
+## Tahap 1
 
 **Komponen:** 
 1. Arduino UNO
@@ -12,4 +12,4 @@
 2. Proses bacaan sensor untuk menampilkan RPY
 3. Proses bacaan sensor untuk menampilkan akselerometer
 
-## Minggu 2
+## Tahap 2
