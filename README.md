@@ -8,10 +8,10 @@
 3. Female-Male Jumper 4x
 
 **Koneksi pada Arduino UNO R3**
-VCC   5v
-GND   GND
-SCL   A5
-SDA   A4
+1. VCC   5v
+2. GND   GND
+3. SCL   A5
+4. SDA   A4
 
 **Tujuan:**
 1. Tes sensor MPU6050
