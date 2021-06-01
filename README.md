@@ -51,4 +51,9 @@
 4. Filtering RPY menggunakan Kalman Filter
 
 **Libraries**
-1. 
+1. LIbrary OpenCM 9.04 MPU6050 with DMP https://emanual.robotis.com/docs/en/parts/controller/opencm904/#arduino-ide
+
+**Hasil**
+1. Tes sensor berhasil
+2. Sensor berhasil membaca RPY
+3. 
