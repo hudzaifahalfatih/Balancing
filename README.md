@@ -37,9 +37,18 @@
 2. MPU6050
 3. Female-Female Jumper 5x
 
-**Koneksi pada OPENCM 9.04
-Vcc   5V
-GND   GND
-SCL   D24
-SDA   D25
-INT   A2
+**Koneksi pada OPENCM 9.04**
+1. VCC   5v
+2. GND   GND
+3. SCL   D24
+4. SDA   D25
+5. INT   A2
+
+**Tujuan:**
+1. Tes sensor MPU6050
+2. Proses bacaan sensor untuk menampilkan RPY
+3. Proses bacaan sensor untuk menampilkan akselerometer
+4. Filtering RPY menggunakan Kalman Filter
+
+**Libraries**
+1. 
