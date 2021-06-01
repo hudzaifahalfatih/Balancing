@@ -1,15 +1,38 @@
 # Balancing
 
-## Tahap 1
+## Tahap 1 Testing MPU 6050 pada Arduino UNO
 
 **Komponen:** 
 1. Arduino UNO
 2. MPU6050
 3. Female-Male Jumper 4x
 
+**Koneksi pada Arduino UNO R3**
+VCC - 5v
+GND - GND
+SCL - A5
+SDA - A4
+
 **Tujuan:**
 1. Tes sensor MPU6050
 2. Proses bacaan sensor untuk menampilkan RPY
 3. Proses bacaan sensor untuk menampilkan akselerometer
+4. Filtering RPY menggunakan Kalman Filter
 
-## Tahap 2
+**Libraries**
+1. MPU6050: https://github.com/jarzebski/Arduino-MPU6050
+2. Kalman Filter RPY: https://github.com/jarzebski/Arduino-KalmanFilter
+
+
+**Hasil:**
+1. Sensor bekerja
+2. Mampu menampilkan RPY pada terminal
+3. Mampu menampilkan percepatan pada terminal
+4. Data RPY dapat terfilter dengan baik menggunakan Kalman Filter
+
+## Tahap 2 Implementasi MPU6050 pada OpenCM
+
+**Komponen:** 
+1. OpenCM
+2. MPU6050
+3. Female-Male Jumper 4x
