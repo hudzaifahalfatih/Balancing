@@ -8,10 +8,10 @@
 3. Female-Male Jumper 4x
 
 **Koneksi pada Arduino UNO R3**
-VCC - 5v
-GND - GND
-SCL - A5
-SDA - A4
+VCC   5v
+GND   GND
+SCL   A5
+SDA   A4
 
 **Tujuan:**
 1. Tes sensor MPU6050
@@ -30,9 +30,16 @@ SDA - A4
 3. Mampu menampilkan percepatan pada terminal
 4. Data RPY dapat terfilter dengan baik menggunakan Kalman Filter
 
-## Tahap 2 Implementasi MPU6050 pada OpenCM
+## Tahap 2 Implementasi MPU6050 pada OpenCM 9.04
 
 **Komponen:** 
 1. OpenCM
 2. MPU6050
-3. Female-Male Jumper 4x
+3. Female-Female Jumper 5x
+
+**Koneksi pada OPENCM 9.04
+Vcc   5V
+GND   GND
+SCL   D24
+SDA   D25
+INT   A2
