@@ -56,4 +56,6 @@
 **Hasil**
 1. Tes sensor berhasil
 2. Sensor berhasil membaca RPY
-3. 
+3. Filter berhasil membersihkan data RPY
+
+File pada MPUImplementasi.zip berhasil dicompile dan siap diimplementasikan
